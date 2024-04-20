@@ -10,6 +10,7 @@
   },
   "keywords": [],
   "author": "Xander Salathe",
+  "homepage": "https://github.com/xdaybreakerx/js-d20#readme",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0"
