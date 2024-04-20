@@ -1,4 +1,4 @@
-// Import helper functions from the diceFunctions module
+// Import helper functions from the d20 module
 const { rollDice, rollMultipleDice, sortDiceRolls, calculateDiceRollTotal } = require('./d20');
 
 // Public API function
@@ -30,7 +30,7 @@ function roll(diceString) {
     *   - [\+\-] - A plus or minus sign indicating addition or subtraction
     *   - \d+ - A number specifying how much to add or subtract from the dice roll total
     */
-   
+
     const matches = diceString.match(diceRegex);
   
     if (!matches) {

@@ -119,6 +119,6 @@ function calculateDiceRollTotal(diceRolls, modifier) {
   return finalTotal;
 }
 
-module.exports = { roll,
+module.exports = {
   rollMultipleDice, sortDiceRolls, calculateDiceRollTotal
 }

@@ -1,7 +1,7 @@
 {
-  "name": "js_d20",
+  "name": "js-d20",
   "version": "1.0.0",
-  "description": "",
+  "description": "Your friendly neighbourhood dice roller - for any RPG!",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -9,7 +9,7 @@
     "start": "node src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Xander Salathe",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0"

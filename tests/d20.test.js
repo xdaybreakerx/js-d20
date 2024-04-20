@@ -1,4 +1,5 @@
-const { roll, rollMultipleDice, sortDiceRolls, calculateDiceRollTotal } = require('../src/d20');  // Adjust the path as necessary
+const { rollMultipleDice, sortDiceRolls, calculateDiceRollTotal } = require('../src/d20');  
+const { roll } = require('../src/index')
 
 describe('Dice Rolling Functions', () => {
     test('roll function outputs correct total and string format', () => {
