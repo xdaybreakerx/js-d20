@@ -1,20 +1,11 @@
-// const { rollDice } = require("./gpt-d20");
-
-// console.log(rollDice("2d20kh1"));  // Advantage
-// console.log(rollDice("2d20kl1"));  // Disadvantage
-// console.log(rollDice("1d20"));     // Regular roll
-// console.log(rollDice("d20"));      // Regular roll
-// console.log(rollDice("1d6+10"));   // Regular roll with addition
-// console.log(rollDice("1d6-3"));    // Regular roll with subtraction
-
-// console.log(rollDice("2d20", true));  // Verbose mode
-// console.log(rollDice("1d6+10", true));
-// console.log(rollDice("1d6-3", true));
-
-const { roll } = require ("./dndDiceRegex");
+const { roll } = require ("./d20");
 
 roll("1d20")
 roll("2d20kh1")
 roll("d20")
 roll("1d6+10")
 roll("1d6-3")
+
+let result = roll("1d20+5");
+console.log(result.toString());  // Print: '1d20 (10) + 5 = `15`'
+console.log(result.total);       // Print: 15
