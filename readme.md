@@ -14,13 +14,13 @@ This Dice Roller provides a comprehensive set of tools to simulate dice rolls as
 This module is easy to install via npm:
 
 ```bash
-npm install your-package-name
+npm install js-d20
 ```
 
 ## Usage
 To use this library, first import the functions you need from the package:
 ```js
-const { roll } = require('your-package-name');
+const { roll } = require('js-d20');
 ``` 
 
 Then, you can use the roll function to execute dice rolls:
